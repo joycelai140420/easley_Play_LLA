@@ -4,5 +4,7 @@
     可以透过llava模型，根据你给的图片以及prompt指令来进行解读
 ### 🔹 first_local_llm.ipynb 本示例主要是带大家如何简单在本地端部署llm，并实现web 界面互动问答、
     用简单的方式部署llm模型跟web 界面进行问答
-### 🔹 first_llm_talk_robot.ipynb 本示例主要是带大家如何简单在本地端部署llm，并实现web 界面互动问答、将模型生成出来的文字透过gTTS将文字转换成语音的范例
+### 🔹 first_llm_talk_robot.ipynb 大家如何简单本示例主要是带在本地端部署llm，并实现web 界面互动问答、将模型生成出来的文字透过gTTS将文字转换成语音的范例
     在实作本范例之前，请参阅first_local_llm.ipynb，本示例将延续前作进行。
+### 🔹 use_crawler_LLM_ETL.ipynb 大家如何简单本示例主要是在本地端实现自动化爬虫解析网页内容并利用llm实现sql语句达到自动化ETL的范例
+    在实作本范例之前，请参阅first_local_llm.ipynb跟first_llm_talk_robot.ipynb安装插件说明，在训练模型时需要收集大量爬取网页上的数据，我们可以根据爬虫api(Reader API)来解析网页内容，根据使用的LLM模型来解析内容产生SQL指令，进而达到自动化的数据清理与汇入数据库指令。
