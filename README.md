@@ -8,3 +8,5 @@
     在实作本范例之前，请参阅first_local_llm.ipynb，本示例将延续前作进行。
 ### 🔹 use_crawler_LLM_ETL.ipynb 大家如何简单本示例主要是在本地端实现自动化爬虫解析网页内容并利用llm实现sql语句达到自动化ETL的范例
     在实作本范例之前，请参阅first_local_llm.ipynb跟first_llm_talk_robot.ipynb安装插件说明，在训练模型时需要收集大量爬取网页上的数据，我们可以根据爬虫api(Reader API)来解析网页内容，根据使用的LLM模型来解析内容产生SQL指令，进而达到自动化的数据清理与汇入数据库指令。
+### 🔹 Whisper_Speech_to_Text.ipynb 讓大家在雲端實現語音轉文字的功能
+    本範例是可以幫助大家在進行收集語音轉文字數據集，進行批量採集，減少人工用時，對於在ETL是很有幫助。
