@@ -16,3 +16,5 @@
     本範例是可以幫助大家針對企業或是個人資料中，讓自己的大模型可以根據上傳的文檔進行回答。請先看前作PDF_Chatbot.ipynb
 ### 🔹 my_deepseek_r1.py 讓大家在本地端也可以使用deepseek_r1
     本範例是可以幫助大家在本地端也可以使用deepseek_r1
+### 🔹 r1_GRPO_install_step.ipynb 主要是利用deepseek_r1 GRPO 技術來進行微調模型
+    本範例是教大家如何利用deepseek_r1 GRPO 來微調模型，透過自己提供的數據來微調模型，並下載到本地端進行使用
