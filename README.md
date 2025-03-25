@@ -18,3 +18,5 @@
     本範例是可以幫助大家在本地端也可以使用deepseek_r1
 ### 🔹 r1_GRPO_install_step.ipynb 主要是利用deepseek_r1 GRPO 技術來進行微調模型
     本範例是教大家如何利用deepseek_r1 GRPO 來微調模型，透過自己提供的數據來微調模型，並下載到本地端進行使用
+### 🔹 finetune_deepseek_r1_with_medical_dataset_to_ollama.ipynb 主要是带领大家如何使用Unsloth对已经将DeepSeek-R1蒸馏到小模型Llama8b的版本进行微调所构建医疗专家的模型
+    本範例使用的是DeepSeek-R1-Distill-Llama-8B模型，並利用 Unsloth 進行微調
